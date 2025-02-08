@@ -101,15 +101,15 @@ const DefaultLayout = ({children}: any) => {
             <Footer />
             <div className="media">
                 <FadeIn delay={200} wrapperTag={Ul}>
-                    <li><a href="https://www.linkedin.com/in/kingsley-etoka-759609101/" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className='bx bxl-linkedin-square' ></i></a></li>
-                    <li><a href="https://github.com/sleez007" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className='bx bxl-github'></i></a></li>
-                    <li><a href="https://twitter.com/sleez_daemon" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className='bx bxl-twitter'></i></a></li>
-                    <li><a href=" https://wa.me/2348038070818" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className='bx bxl-whatsapp'></i></a></li>
-                    <li><a href="tel:+2348038070818"><i className='bx bx-phone'></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/vincent-dominic-277644273" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className='bx bxl-linkedin-square' ></i></a></li>
+                    <li><a href="https://github.com/VinsDev" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className='bx bxl-github'></i></a></li>
+                    <li><a href="https://x.com/DomVins757" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i style={{ fontFamily: 'Arial', fontStyle: 'normal' }}>𝕏</i></a></li>
+                    <li><a href=" https://wa.me/2348105634427" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className='bx bxl-whatsapp'></i></a></li>
+                    <li><a href="tel:+2348105634427"><i className='bx bx-phone'></i></a></li>
                 </FadeIn>
             </div>
             <FadeIn delay={200} className="email-me">
-                <a href="mailto:etokakingsley@gmail.com">etokakingsley@gmail.com</a>
+                <a href="mailto:vinsdev185@gmail.com">vinsdev185@gmail.com</a>
             </FadeIn>
         </Wrap>
     );

@@ -191,7 +191,7 @@ const SkillWrap = ({title, icon}: d) => {
         <div className="box">
             <i className={icon}></i>
             <h3 dangerouslySetInnerHTML={{__html: title}}></h3>
-            <a href="mailto:etokakingsley@gmail.com"><p>Hire Me <i className='bx bx-right-arrow-alt'></i></p></a>
+            <a href="mailto:vinsdev185@gmail.com"><p>Hire Me <i className='bx bx-right-arrow-alt'></i></p></a>
         </div>
     )
 }

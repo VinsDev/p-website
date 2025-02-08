@@ -42,7 +42,7 @@ const Hire= () => {
                     <h1 className="text-center">Get In Touch</h1>
                     <p className="text-center">I&#39;d be glad to join your team and help your team launch products that can help impact users across the globe. Let&#39;s begin!</p>
                     <div className="flex">
-                        <Button ref={imgGlitch.ref} as="a" href="mailto:etokakingsley@gmail.com" className="text-center ">Shoot me an email</Button>
+                        <Button ref={imgGlitch.ref} as="a" href="mailto:vinsdev185@gmail.com" className="text-center ">Shoot me an email</Button>
                     </div>
                 </Container>
             </Wrapper>
