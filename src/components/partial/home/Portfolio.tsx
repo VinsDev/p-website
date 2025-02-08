@@ -210,7 +210,7 @@ const projects: Wp = {
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://kingsleyetoka.com'
+                    link: 'https://vincentdominic.vercel.app'
                 }
             ]
         },
