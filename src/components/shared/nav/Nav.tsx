@@ -29,9 +29,14 @@ const navOptions: NavLinkA[] = [
 ];
 
 const Header = styled.header`
-    position: relative;
-    padding-top: 2em;
-    z-index: 10;
+    position: sticky;
+    top: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    z-index: 1000;
+    background-color: ${({theme}: Props) => theme.primaryBg};
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
     &[data-overlay]::before{
         content:'';
         width: 100%;
@@ -62,35 +67,16 @@ const Header = styled.header`
     }
 
     &.menu-scroll{
-        transition: none;
-        position: fixed;
-        right: 0;
-        left: 0;
-        top: 0;
-        margin-top: -130px;
-        padding-bottom: 2em;
         background: ${({theme}: Props) => theme.primaryBg};
-        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1)
-    }
-
-    &.awake {
-
-        transition: .3s margin-top ease-out;
-        margin-top: 0;
-        -webkit-transition: .3s all ease-out;
-        -o-transition: .3s all ease-out;
-        transition: .3s all ease-out;
-    }
-      
-    &.menu-scroll.sleep {
-        -webkit-transition: .3s all ease-out;
-        -o-transition: .3s all ease-out;
-        transition: .3s all ease-out;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
 `;
 
-const NavList = styled.ul.attrs({role: 'list', ariaLabel:'Primary'})`
+const NavList = styled.ul.attrs({
+    role: 'list',
+    ariaLabel: 'Primary',
+    className: 'nav-list'
+})<Props>`
     font-size: var(--fs-nav);
     font-weight: var(--fw-semi-bold);
 
@@ -105,8 +91,15 @@ const NavList = styled.ul.attrs({role: 'list', ariaLabel:'Primary'})`
 
     @media(max-width: 50em) {
         font-weight: var(--fw-semi-bold);
-        li+li{
-            margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+        li {
+            opacity: 1;
+            transform: none;
+            text-align: left;
+            width: 100%;
         }
     }
 
@@ -147,6 +140,16 @@ const NavList = styled.ul.attrs({role: 'list', ariaLabel:'Primary'})`
 const LogoWrapper = styled.a`
     z-index: 2;
 `
+
+interface StyledHeaderProps {
+    children?: React.ReactNode;
+    ref?: React.RefObject<HTMLElement>;
+}
+
+const StyledHeader = styled(Header)<StyledHeaderProps>``;
+const StyledContainer = styled(Container)<{ children: React.ReactNode }>``;
+const StyledNavList = styled(NavList)<{ children: React.ReactNode }>``;
+
 export const NavBar = () => {
     const menuRef: any = React.useRef(null);
     const toggleRef: any = React.useRef(null);
@@ -198,52 +201,39 @@ export const NavBar = () => {
 
     const handleScroll = () => {
         if (window.pageYOffset > 150) {
-            
             if(!primaryHeader?.current?.classList?.contains('menu-scroll')){
-                primaryHeader?.current?.classList?.remove('sleep');
                 primaryHeader?.current?.classList?.add('menu-scroll')
             }
-
-            if (window.pageYOffset > 350) {
-                if(!primaryHeader?.current?.classList?.contains('awake')){
-                    primaryHeader?.current?.classList?.add('awake');
-                }
-            }else{
-                if(primaryHeader?.current?.classList?.contains('awake')){
-                    primaryHeader?.current?.classList?.add('sleep');
-                    primaryHeader?.current?.classList?.remove('awake');
-                }
-            }
-        }else{
-            if(primaryHeader?.current?.classList?.contains('menu-scroll')){
-                primaryHeader?.current?.classList?.remove('menu-scroll');
-            }
+        } else {
+            primaryHeader?.current?.classList?.remove('menu-scroll');
         }
     }
 
     return (
-        <Header ref={primaryHeader}>
-            <Container className="flex space-btw">
+        <StyledHeader ref={primaryHeader}>
+            <StyledContainer className="flex space-btw">
                 <LogoWrapper><Fade ssrFadeout top><Logo/></Fade></LogoWrapper>
                 <Hamburger toggleMenu={toggleMenu} toggleRef={toggleRef} navBtn={navBtn} />
                 <nav className="primary-navigation" id="primary-navigation" ref={menuRef}>
-                    <NavList className="nav__list" id="lll" >
+                    <StyledNavList className="nav__list" id="lll">
                         {
-                            navOptions.map(({name, href}, i) => (<MenuItem name={name} href={href} key={name} i={i} />))
+                            navOptions.map(({name, href}, i) => (
+                                <MenuItem name={name} href={href} key={name} i={i} />
+                            ))
                         }
                         <li className="nav__item toggle">
-                            <a  className="nav__link">
+                            <a className="nav__link">
                                 <DarkModeSwitch
                                     checked={darkMode.value}
-                                    onChange={(c)=>darkMode.toggle()}
+                                    onChange={darkMode.toggle}
                                     size={23}
                                 />
                             </a>
                         </li>
-                    </NavList>
+                    </StyledNavList>
                 </nav>
-            </Container>
-        </Header>
+            </StyledContainer>
+        </StyledHeader>
     );
 }
 

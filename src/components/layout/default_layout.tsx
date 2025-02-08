@@ -1,7 +1,7 @@
 import FadeIn from "react-fade-in";
 import styled from "styled-components";
-import Footer from "../shared/footer/Footer";
 import { NavBar } from "../shared/nav/Nav";
+import Footer from "../shared/footer/Footer";
 
 // A hack
 const Ul = styled.ul``;

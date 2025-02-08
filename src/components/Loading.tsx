@@ -25,9 +25,9 @@ const LoadingIcon =()=> {
         <LoadingWrapper>
             <g id="logo" transform="translate(3 3.464)">
                 <g id="hex">
-                    <path id="Path_83" data-name="Path 83" d="M40.933,0,81.866,23.633V70.9L40.933,94.53,0,70.9V23.633Z" fill="none" stroke="#7064d7" strokeWidth="6" className="svg-elem-1"></path>
+                    <path id="Path_83" data-name="Path 83" d="M40.933,0,81.866,23.633V70.9L40.933,94.53,0,70.9V23.633Z" fill="none" stroke="#0066FF" strokeWidth="6" className="svg-elem-1"></path>
                 </g>
-                <text id="KE" transform="translate(20.205 61.53)" fill="#7462de" style={{fontSize: '30px', textAlign: 'center', letterSpacing:4.0, fontWeight: 500}}><tspan x="0" y="0">KE</tspan></text>
+                <text id="VD" transform="translate(20.205 61.53)" fill="#0066FF" style={{fontSize: '30px', textAlign: 'center', letterSpacing: '2px', fontWeight: 600, fontFamily: 'Arial, sans-serif'}}><tspan x="0" y="0">VD</tspan></text>
             </g>
         </LoadingWrapper>
 

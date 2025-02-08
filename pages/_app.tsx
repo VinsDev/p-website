@@ -6,23 +6,23 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeHookProvider >
         <NextSeo
-          title="Kingsley's Portfolio"
-          description="Portfolio Website for Kingsley Etoka"
-          canonical="https://kingsleyetoka.com"
+          title="Vincent's Portfolio"
+          description="Portfolio Website for Vincent Dominic"
+          canonical="https://vincentdominic.com"
           openGraph={{
-            title: 'Kingsley Etoka',
-            description: 'I\'m a Fullstack Web and Mobile App Developer With Over 6 years of experience building Industry Leading Web and Mobile App Solutions with next gen technologies.',
-            url: 'https://kingsleyetoka.com',
+            title: 'Vincent Dominic',
+            description: 'Software Engineer and Full-Stack Developer with expertise in building high-performance applications that serve 100K+ users. Specializing in React, Next.js, Flutter, and Node.js.',
+            url: 'https://vincentdominic.com',
             type: 'profile',
             profile: {
-              firstName: 'Kingsley',
-              lastName: 'Etoka',
-              username: 'firstlast123',
+              firstName: 'Vincent',
+              lastName: 'Dominic',
+              username: 'vincentdominic',
               gender: 'male',
             },
             images: [
               {
-                url: '/assets/images/kingsley.png',
+                url: '/assets/images/man2.jpg',
                 width: 850,
                 height: 650,
                 alt: 'Profile Photo',

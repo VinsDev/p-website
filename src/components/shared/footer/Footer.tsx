@@ -20,7 +20,7 @@ const Footer = () => {
     return (
         <Wrapper>
             <Container>
-                <p className="text-center">Designed & Built with love by Kingsley ©{new Date().getFullYear()}</p>
+                <p className="text-center">Designed & Built with love by Vincent ©{new Date().getFullYear()}</p>
 
                 <ul role='list' className="flex">
                     <li><a href="https://www.linkedin.com/in/kingsley-etoka-759609101/" target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className='bx bxl-linkedin-square' ></i></a></li>

@@ -1,107 +1,59 @@
 {
     "experience": [
         {
-            "company": "ExamRoom.AI",
-            "title": "Frontend Engineer",
-            "at": "@ExamRoom.AI",
-            "link":"https://examroom.ai",
-            "duration": "March 2023 - Present",
+            "company": "FeatureMind",
+            "title": "Full-Stack Developer",
+            "at": "@FeatureMind",
+            "link": "",
+            "duration": "December 2023 – Present",
             "roles": [
-                "Collaborated with my team mates to build awesome user interface",
-                "Worked closely with business analyst to understand business requirements",
-                "Participated in code review sessions"
-            ]
-        },
-          {
-            "company": "Build Africa",
-            "title": "Frontend Engineer (Contract)",
-            "at": "@Build Africa",
-            "link":"https://buildafrica.store",
-            "duration": "Dec 2022 - Jan March 2023",
-            "roles": [
-                "Responsible for setting up project frontend micro-frontend design architecture using NX",
-                "Worked closely with business analyst to understand business requirements",
-                 "Followed TDD guidlines to ensure that every unit of program is well tested and documented",
-                "Participated in code review sessions"
+                "Engineered a high-performance e-commerce platform frontend with Next.js and TypeScript, integrating Algolia for lightning-fast search",
+                "Developed an advanced product catalog system, leveraging Algolia for real-time search across 100,000+ items",
+                "Enhanced team development workflows through comprehensive code reviews across a team of 10+ developers",
+                "Optimized CI/CD pipelines with automated testing, slashing deployment times from 2 hours to 15 minutes",
+                "Built and launched mobile applications using Flutter, achieving over 50,000 combined downloads"
             ]
         },
         {
-            "company": "Bonitas ICT",
-            "title": "Development Team Lead",
-            "at": "@Bonitas ICT",
-            "link":"https://bonitasict.com",
-            "duration": "Feb 2021 - March 2023",
+            "company": "Oyiche Tech Solutions",
+            "title": "Full-Stack & Mobile Developer",
+            "at": "@Oyiche Tech",
+            "link": "",
+            "duration": "July 2023 – Present",
             "roles": [
-                "Successfully built the internal HSE Administrative end for the Hse App which the HSE officer uses to keep track of all HSE related activities",
-                "Accomplished one of the company’s key projects for 2021 by developing a hybrid mobile app for the Anambra State Housing groundbreaking event, using Flutter. This secured approval and advancement onto the next phase of contract between the company and the State Government.",
-                "Successfully buit the website for the various company entities. Please Note that Bonitas is a conglomerate of multiple chains of business in different sectors.",
-                "Successfully built the green valley estate Mobile App so far to the point where it is. Project is still ongoing...",
-                "Brainstorm with product team and the UI Team to ensure the processes mirrored off are not missing vital steps",
-                "Mentor interns designated to learn mobile app development by guiding them through best approaches in logical thinking, writing of clean codes, and standard workplace conducts and ethics",
-                "Worked with team mates to ensure project delivery and sprint completion",
-                "Held down sprint meetings as scrum master"
+                "Developed high-performance, responsive websites using HTML, CSS, JavaScript, and Bootstrap",
+                "Engineered a school management system with Django and Bootstrap, reducing administrative workload by 60%",
+                "Built a school result computation system, reducing report generation time from 2 days to under 30 minutes",
+                "Developed feature-rich mobile applications with Flutter including food ordering and AI-powered customer service apps",
+                "Led code reviews for a team of four developers, optimizing code quality and improving performance by 30%"
             ]
         },
         {
-            "company": "Innovate Space",
-            "title": "Software Engineer(Contract)",
-            "at": "@Innovate Space",
-            "link":"https://innovatespace.co",
-            "duration": "Jan 2022 - March 2022",
+            "company": "Groovnix",
+            "title": "Intern Full-Stack Developer",
+            "at": "@Groovnix",
+            "link": "",
+            "duration": "January 2023 – July 2023",
             "roles": [
-                "Part time Code instructor and mentorship program at the software training academy",
-                "Succeessfully built the company website",
-                "Successfully built the Mayuk website for thr companies client"
+                "Developed key features for a video editing web application similar to CapCut",
+                "Implemented real-time video processing capabilities using FFmpeg and WebGL, reducing rendering time by 40%",
+                "Built responsive video timeline interface with frame-accurate editing using Canvas API and React",
+                "Integrated cloud storage solutions using AWS S3 for efficient video file management",
+                "Optimized video processing pipeline reducing export times by 50%"
             ]
         },
         {
-            "company": "TheOaksoft",
-            "title": "Mobile App Engineer (Contract)",
-            "at": "@TheOaksoft",
-            "link":"https://theoaksoft.com",
-            "duration": "Dec 2020 - Dec 2021",
+            "company": "Modern Age Tech Solutions",
+            "title": "Full-Stack & Mobile Developer",
+            "at": "@Modern Age Tech",
+            "link": "",
+            "duration": "April 2021 – February 2023",
             "roles": [
-                "Successfully Worked closely with the team in building and launching a cross-platform fintech solution that features flexible investment and packages. Specifically responsible for building the mobile app using Flutter domain-driven design pattern.",
-                "Successfully Integrated all the key payment system used on the platform like Paystack and flutterwave.",
-                "Collaborated with the team via JIRA software and completed all assigned tasks as per ongoing software development sprints. Delivered before deadlines most of the time.",
-                "Maintained active communication with the Client thereby comprehending and satisfactorily implementing their precise ideas and requirements."
-            ]
-        },
-        {
-            "company": "Cousant Connect",
-            "title": "Mobile App Consultant (Contract)",
-            "at": "@Cousant Connect",
-            "link":"https://cousant.com/",
-            "duration": "Dec 2020 - Dec 2021",
-            "roles": [
-                "Work based on assigned role per time as a mobile app developer for Clients of Cousant Connect under a strict non-disclosure policy.",
-                "Collaborate with the existing team as allowed by each Client in developing industry-leading mobile app solutions according to the Client’s specifics.",
-                "Completed two Client contracts so far with over 95% client satisfaction and recommendation."
-            ]
-        },
-        {
-            "company": "Hishighnex",
-            "title": "Fullstack Web and Mobile developer",
-            "at": "@Hishighnex",
-            "link":"https://oilperfumes.com/",
-            "duration": "Jan 2019 - Jan 2021",
-            "roles": [
-                "Successfully built an ee-commercee platform for the brand using Angular",
-                "Succeessfully built and deployed the company Native Android App using Kotlin",
-                "Successfully built the company's IOS App using React Native",
-                "Successfully built the compsniees internal inventory management solution"
-            ]
-        },
-        {
-            "company": "Devamplify Hub",
-            "title": "Fullstack Web and Mobile developer",
-            "at": "@DevAmplify",
-            "link":"https://devamplify.com/",
-            "duration": "Jan 2018 - Dec 2018",
-            "roles": [
-                "Successfully built the companies startup Idea. The oneword App using Ionic",
-                "Successfully built and deployed a multilevel marketing platform for the comapny's client using Angular",
-                "Successfully trained students at the academy on both web and Mobile App development"
+                "Developed and launched 5+ specialized mobile applications for result computation and scientific calculations",
+                "Engineered scientific calculator app reducing computation time by 75%",
+                "Implemented complex mathematical algorithms reducing calculation errors by 99%",
+                "Optimized app performance through efficient state management, reducing memory usage by 40%",
+                "Built custom result computation system processing 10,000+ student records with 99.9% accuracy"
             ]
         }
     ]

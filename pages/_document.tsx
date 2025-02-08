@@ -7,11 +7,11 @@ const Doc: NextPage = ()=>{
   return (
     <Html lang="en" style={{scrollBehavior:'smooth'}}>
       <Head>
-      <meta name="application-name" content="Etoka Kingsleey" />
+      <meta name="application-name" content="Vincent Dominic" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta name="apple-mobile-web-app-title" content="PWA App" />
-      <meta name="description" content="I'm a Fullstack Web and Mobile App Developer With Over 6 years of experience building Industry Leading Web and Mobile App Solutions with next gen technologies." />
+      <meta name="apple-mobile-web-app-title" content="Vincent's Portfolio" />
+      <meta name="description" content="Software Engineer and Full-Stack Developer with expertise in building high-performance applications that serve 100K+ users. Specializing in React, Next.js, Flutter, and Node.js." />
       <meta name="format-detection" content="telephone=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="msapplication-config" content="/images/icons/icon-144x144.png" />
