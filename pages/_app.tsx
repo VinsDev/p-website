@@ -8,11 +8,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <NextSeo
           title="Vincent's Portfolio"
           description="Portfolio Website for Vincent Dominic"
-          canonical="https://vincentdominic.com"
+          canonical="https://vincentdominic.vercel.app"
           openGraph={{
             title: 'Vincent Dominic',
             description: 'Software Engineer and Full-Stack Developer with expertise in building high-performance applications that serve 100K+ users. Specializing in React, Next.js, Flutter, and Node.js.',
-            url: 'https://vincentdominic.com',
+            url: 'https://vincentdominic.vercel.app',
             type: 'profile',
             profile: {
               firstName: 'Vincent',
@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
             },
             images: [
               {
-                url: '/assets/images/man2.jpg',
+                url: 'https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg',
                 width: 850,
                 height: 650,
                 alt: 'Profile Photo',
