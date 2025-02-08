@@ -43,7 +43,7 @@ const revolvingLight = keyframes`
 `;
 
 const HeroWrapper = styled.section`
-    padding-top: 4em;
+    padding-top: 3em;
     min-height: 30em;
     position: relative;
     overflow: hidden;
@@ -54,6 +54,7 @@ const HeroWrapper = styled.section`
 
     .hero_container {
         gap: 4em;
+        padding-bottom: 2rem;
     }
 
     .hero__image {
@@ -318,7 +319,7 @@ const Hero = () => {
                 <div className="hero_container">
                     <div className="hero__detail">
                         <FadeIn delay={200}>
-                            <p className="text-primary-300">Hello, I&#39;m</p>
+                            <p className="text-primary-400">Hello, I&#39;m</p>
                             <h1>VINCENT OMAKU<br/>DOMINIC</h1>
                             <p className="role">Software Engineer | Full-Stack Developer | Mobile Developer</p>
                             <p className="description">
