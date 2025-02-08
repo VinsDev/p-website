@@ -7,15 +7,37 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeHookProvider>
       <Head>
-        {/* Explicit Open Graph Image Meta Tag */}
+        <meta property="og:title" content="Vincent Dominic" />
+        <meta
+          property="og:description"
+          content="Software Engineer and Full-Stack Developer with expertise in React, Next.js, Flutter, and Node.js."
+        />
         <meta
           property="og:image"
+          content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg"
+        />
+        <meta
+          property="og:image:secure_url"
           content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg"
         />
         <meta property="og:image:width" content="850" />
         <meta property="og:image:height" content="650" />
         <meta property="og:image:alt" content="Profile Photo" />
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://vincentdominic.vercel.app" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Vincent Dominic" />
+        <meta
+          name="twitter:description"
+          content="Software Engineer and Full-Stack Developer with expertise in React, Next.js, Flutter, and Node.js."
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg"
+        />
       </Head>
+
       <NextSeo
         title="Vincent's Portfolio"
         description="Portfolio Website for Vincent Dominic"
