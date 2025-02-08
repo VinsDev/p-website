@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Props } from "../../../theme/styling/GlobalStyle";
 import { Container } from "../../Container";
 
-const Wrapper = styled.footer.attrs({className: 'footer'})`
+const Wrapper = styled.footer.attrs({className: 'footer'})<{ children?: React.ReactNode }>`
     padding-block: 6em;
 
     .flex{

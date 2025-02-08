@@ -1,7 +1,10 @@
 import styled from "styled-components";
 import { Props } from "../../theme/styling/GlobalStyle";
 
-const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ariaExpanded:'false'})`
+const HamburgerBtn = styled.button.attrs({
+    ariaControls: 'primary-navigation', 
+    ariaExpanded: 'false'
+})<{ children?: React.ReactNode; className?: string; onClick?: () => void; ref?: React.RefObject<any> }>`
     cursor: pointer;
     background-color: transparent;
     border: 0;
@@ -50,7 +53,13 @@ const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ari
     }
 `;
 
-const AnimatedBurger = styled.svg.attrs({width:40, height:40, viewBox:'0 0 100 100', fill:'none', xmlns:'http://www.w3.org/2000/svg'})``;
+const AnimatedBurger = styled.svg.attrs({
+    width: 40, 
+    height: 40, 
+    viewBox: '0 0 100 100', 
+    fill: 'none', 
+    xmlns: 'http://www.w3.org/2000/svg'
+})<{ children?: React.ReactNode; className?: string; ref?: React.RefObject<any> }>``;
 
 export const Hamburger =  ({toggleRef, toggleMenu, navBtn}: any) => {
     return (

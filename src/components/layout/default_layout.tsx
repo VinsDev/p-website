@@ -6,7 +6,7 @@ import Footer from "../shared/footer/Footer";
 // A hack
 const Ul = styled.ul``;
 
-const Wrap = styled.div`
+const Wrap = styled.div<{ children?: React.ReactNode; className?: string }>`
     position: relative;
     .email-me{
         z-index: 3;
