@@ -30,12 +30,12 @@ const content = {
     ]
 };
 
-const Wrapper = styled.section<Props>`
-    ${() => `id: 'about'`};
+const Wrapper = styled.section.attrs({id: 'about'})<Props & { children?: React.ReactNode }>`
     padding-block: 6em;
     position: relative;
     background-color: ${({ theme }: Props) => theme.primaryBg};
     z-index: 1;
+    scroll-margin-top: 2rem;
     @media(min-width: 50em){
         padding-block: 16em 6em;
         margin-top: -12em;
