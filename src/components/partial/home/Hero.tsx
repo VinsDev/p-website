@@ -332,7 +332,7 @@ const Hero = () => {
                             </p>
                             <Button 
                                 as='a' 
-                                href="/assets/docs/vincent_dominic_cv.pdf" 
+                                href="/assets/docs/vincent_dominic.pdf" 
                                 download={true} 
                                 inverse={true}
                             >
