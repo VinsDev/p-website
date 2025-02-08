@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-const LogoWrapper = styled.svg.attrs({viewBox: '0 0 87.866 101.459', xmlns: 'http://www.w3.org/2000/svg'})`
+const LogoWrapper = styled.svg.attrs({
+    viewBox: '0 0 87.866 101.459', 
+    xmlns: 'http://www.w3.org/2000/svg'
+})<{ children?: React.ReactNode }>`
     width: 55px;
     height: 55px;
     object-fit: contain;
