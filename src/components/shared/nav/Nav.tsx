@@ -147,8 +147,8 @@ interface StyledHeaderProps {
 }
 
 const StyledHeader = styled(Header)<StyledHeaderProps>``;
-const StyledContainer = styled(Container)<{ children: React.ReactNode }>``;
-const StyledNavList = styled(NavList)<{ children: React.ReactNode }>``;
+const StyledContainer = styled(Container)<{ children: React.ReactNode; className?: string }>``;
+const StyledNavList = styled(NavList)<{ children: React.ReactNode; id?: string }>``;
 
 export const NavBar = () => {
     const menuRef: any = React.useRef(null);

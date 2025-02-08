@@ -5,10 +5,36 @@ import Fade from 'react-reveal/Fade';
 import profileImage from '../../../../public/assets/images/vincent.jpg'
 import { Props } from "../../../theme/styling/GlobalStyle";
 
-const Wrapper = styled.section.attrs({id: 'about'})`
+const content = {
+    title: "About Me",
+    sectionTitle: "About me",
+    intro: "As a passionate Software Engineer, I thrive on creating innovative solutions that push the boundaries of what's possible in web and mobile development. With a strong foundation in both front-end and back-end technologies, I specialize in building scalable, high-performance applications that deliver exceptional user experiences.",
+    approach: "My approach combines technical expertise with a deep understanding of business needs, allowing me to develop solutions that not only meet technical requirements but also drive meaningful business outcomes. I'm particularly proud of my work in optimizing application performance and implementing robust architectures that support large-scale user bases.",
+    techIntro: "Here are the key technologies I work with:",
+    technologies: [
+        "React/Next.js",
+        "Node.js",
+        "TypeScript",
+        "Flutter",
+        "Django",
+        "Flask",
+        "GraphQL",
+        "REST APIs",
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Firebase",
+        "AWS",
+        "Docker",
+        "CI/CD"
+    ]
+};
+
+const Wrapper = styled.section<Props>`
+    ${() => `id: 'about'`};
     padding-block: 6em;
     position: relative;
-    background-color: ${({theme}: Props) => theme.primaryBg};
+    background-color: ${({ theme }: Props) => theme.primaryBg};
     z-index: 1;
     @media(min-width: 50em){
         padding-block: 16em 6em;
@@ -39,7 +65,7 @@ const Wrapper = styled.section.attrs({id: 'about'})`
 
             &:hover {
                 transform: translateX(5px);
-                color: ${({theme}: Props) => theme.txtPrimary300};
+                color: ${({ theme }: Props) => theme.txtPrimary300};
             }
 
             &::before{
@@ -47,7 +73,7 @@ const Wrapper = styled.section.attrs({id: 'about'})`
                 top: 0;
                 left: -1.2em;
                 position: absolute;
-                color: ${({theme}: Props) => theme.txtPrimary300};
+                color: ${({ theme }: Props) => theme.txtPrimary300};
             }
         }
     }
@@ -59,13 +85,13 @@ const Wrapper = styled.section.attrs({id: 'about'})`
         width: 280px;
         height: 330px;
         border-radius: 8px;
-        background: ${({theme}: Props) => theme.primaryBg};
+        background: ${({ theme }: Props) => theme.primaryBg};
         
         &::before {
             content: '';
             position: absolute;
             inset: -10px;
-            background: ${({theme}: Props) => theme.txtPrimary300};
+            background: ${({ theme }: Props) => theme.txtPrimary300};
             filter: blur(30px);
             opacity: 0.15;
             transition: all 0.4s ease;
@@ -74,7 +100,7 @@ const Wrapper = styled.section.attrs({id: 'about'})`
         &::after {
             z-index: -1;
             position: absolute;
-            border: 2px solid ${({theme}: Props) => theme.txtPrimary300};
+            border: 2px solid ${({ theme }: Props) => theme.txtPrimary300};
             top: 2.5em;
             left: 2.5em;
             content: '';
@@ -155,40 +181,18 @@ const About = () => {
     return (
         <Wrapper>
             <Fade ssrFadeout bottom>
-                <h1 className="side">About Me</h1>
+                <h1 className="side">{content.title}</h1>
                 <Container>
                     <div className="about grid even-columns">
                         <div className="about__details">
-                            <h2 className="section__title"><span className="deco">01. </span>About me <span className="line"></span></h2>
-                            <p>
-                                As a passionate Software Engineer, I thrive on creating innovative solutions that push the boundaries 
-                                of what's possible in web and mobile development. With a strong foundation in both front-end and 
-                                back-end technologies, I specialize in building scalable, high-performance applications that deliver 
-                                exceptional user experiences.
-                            </p>
-                            <p>
-                                My approach combines technical expertise with a deep understanding of business needs, allowing me to 
-                                develop solutions that not only meet technical requirements but also drive meaningful business outcomes. 
-                                I'm particularly proud of my work in optimizing application performance and implementing robust 
-                                architectures that support large-scale user bases.
-                            </p>
-                            <p>Here are the key technologies I work with:</p>
+                            <h2 className="section__title"><span className="deco">01. </span>{content.sectionTitle} <span className="line"></span></h2>
+                            <p>{content.intro}</p>
+                            <p>{content.approach}</p>
+                            <p>{content.techIntro}</p>
                             <ul className="about__list" role='list'>
-                                <li>React/Next.js</li>
-                                <li>Node.js</li>
-                                <li>TypeScript</li>
-                                <li>Flutter</li>
-                                <li>Django</li>
-                                <li>Flask</li>
-                                <li>GraphQL</li>
-                                <li>REST APIs</li>
-                                <li>MongoDB</li>
-                                <li>PostgreSQL</li>
-                                <li>MySQL</li>
-                                <li>Firebase</li>
-                                <li>AWS</li>
-                                <li>Docker</li>
-                                <li>CI/CD</li>
+                                {content.technologies.map((tech) => (
+                                    <li key={tech}>{tech}</li>
+                                ))}
                             </ul>
                         </div>
                         <div className="about__me">

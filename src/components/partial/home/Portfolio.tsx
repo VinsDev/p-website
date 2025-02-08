@@ -308,7 +308,7 @@ const projects: Wp = {
     ]
 };
 
-const Wrapper = styled.section.attrs({id: 'portfolio'})`
+const Wrapper = styled.section.attrs({id: 'portfolio'})<{ children?: React.ReactNode }>`
     padding-block: 6em;
     position: relative;
     scroll-margin-top: 2rem;
