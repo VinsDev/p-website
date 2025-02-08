@@ -25,6 +25,10 @@ const navOptions: NavLinkA[] = [
     {
         name: 'Portfolio',
         href: '#portfolio',
+    },
+    {
+        name: 'Education',
+        href: '#education',
     }
 ];
 

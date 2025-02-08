@@ -38,7 +38,7 @@ const Hire= () => {
             <Wrapper>
                 <h1 className="side">Hire</h1>
                 <Container>
-                    <h2 className="section__title"> <span className="line"></span><span className="deco">04. </span>  What&#39;s Next? <span className="line"></span></h2>
+                    <h2 className="section__title"> <span className="line"></span><span className="deco">05. </span>  What&#39;s Next? <span className="line"></span></h2>
                     <h1 className="text-center">Get In Touch</h1>
                     <p className="text-center">I&apos;m excited about the opportunity to join your team and contribute to building impactful products that reach users worldwide. Let&apos;s create something amazing together!</p>
                     <div className="flex">
