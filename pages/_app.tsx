@@ -14,11 +14,11 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg"
+          content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg?v=3"
         />
         <meta
           property="og:image:secure_url"
-          content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg"
+          content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg?v=3"
         />
         <meta property="og:image:width" content="850" />
         <meta property="og:image:height" content="650" />
@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg"
+          content="https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg?v=3"
         />
       </Head>
 
@@ -56,7 +56,7 @@ export default function App({ Component, pageProps }: AppProps) {
           },
           images: [
             {
-              url: "https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg",
+              url: "https://res.cloudinary.com/dnfzcato8/image/upload/v1739026651/Photo_on_16-01-2025_at_8.30_AM_iwayjt.jpg?v=3",
               width: 850,
               height: 650,
               alt: "Profile Photo",
