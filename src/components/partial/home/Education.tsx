@@ -55,7 +55,6 @@ const data: EducationData = {
         "CNC Programming and Machine Operation",
         "AutoCAD 2D and 3D Design",
       ],
-      certificate: "/assets/images/result.jpg",
     },
     {
       company: "Online Education",
@@ -70,7 +69,6 @@ const data: EducationData = {
         "Project Management for Engineers",
         "Sustainable Engineering Practices",
       ],
-      certificate: "/assets/images/result.jpg",
     },
   ],
 };
