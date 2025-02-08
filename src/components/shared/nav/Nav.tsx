@@ -159,6 +159,9 @@ export const NavBar = () => {
     const isBrowser = typeof window !== `undefined`;
 
     const toggleMenu = () => {
+        // Scroll to top before opening menu
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        
         if(menuRef?.current?.hasAttribute('data-visible')){
             navBtn?.current?.setAttribute('aria-expanded', false)
             document!.querySelector("body")?.removeAttribute('style')

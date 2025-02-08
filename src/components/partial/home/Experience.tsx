@@ -9,6 +9,7 @@ const Wrapper = styled.section.attrs({id: 'experience'})`
     padding-block: 6em;
     background-color: ${({theme}: Props) => theme.secondaryBg};
     position: relative;
+    scroll-margin-top: 3rem;
 
     .experience{
         margin-top: 4em;

@@ -311,7 +311,7 @@ const projects: Wp = {
 const Wrapper = styled.section.attrs({id: 'portfolio'})`
     padding-block: 6em;
     position: relative;
-
+    scroll-margin-top: 2rem;
     h2{
         margin-bottom: 4em;
     }
