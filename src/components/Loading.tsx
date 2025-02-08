@@ -14,7 +14,12 @@ const loadingAnimation = keyframes`
 `;
 
 
-const LoadingWrapper = styled.svg.attrs({viewBox: '0 0 87.866 101.459', height:'101.45899963378906', xmlns: 'http://www.w3.org/2000/svg', width:'87.86599731445312'})`
+const LoadingWrapper = styled.svg.attrs({
+    viewBox: '0 0 87.866 101.459', 
+    height: '101.45899963378906', 
+    xmlns: 'http://www.w3.org/2000/svg', 
+    width: '87.86599731445312'
+})<{ children?: React.ReactNode }>`
     & .svg-elem-1{
         animation: ${loadingAnimation} 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both 5;
     }
