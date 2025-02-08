@@ -168,12 +168,10 @@ const Work = () => {
                         </div>
                     </Fade>
                     <div className="expo__skill-set">
-                        <p>I&#39;ve worked in full capacity as a fullstack Web and Mobile App developer in every of the afore mentioned organization.</p>
+                        <p>As a versatile full-stack developer, I specialize in creating comprehensive web and mobile solutions that drive business value.</p>
                         <Fade ssrFadeout bottom>
                             <div className="skills even-columns grid">
-                                {
-                                    skills.map(s => <SkillWrap {...s} key={s.title} />)
-                                }
+                                {skills.map(s => <SkillWrap {...s} key={s.title} />)}
                             </div>
                         </Fade>
                     </div>

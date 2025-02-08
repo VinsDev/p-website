@@ -138,16 +138,36 @@ const Wrapper = styled.section.attrs({id: 'experience'})<{ children?: React.Reac
             }
         }
     }
+
+    .mobile-only {
+        display: inline;
+        @media(min-width: 50em) {
+            display: none;
+        }
+    }
+
+    .desktop-only {
+        display: none;
+        @media(min-width: 50em) {
+            display: inline;
+        }
+    }
 `;
 
-const Experience= () => {
+const Experience = () => {
     const experience = data.experience;
-    const [index, setIndex ] = React.useState(0);
+    const [index, setIndex] = React.useState(0);
+    
     return (
         <Wrapper>
             <h1 className="side">Experience</h1>
             <Container>
-                <h2 className="section__title"><span className="deco">02. </span>  Where I&#39;ve Worked <span className="line"></span></h2>
+                <h2 className="section__title">
+                    <span className="deco">02. </span>
+                    <span className="mobile-only">Relevant Experience</span>
+                    <span className="desktop-only">Relevant Work Experience</span>
+                    <span className="line"></span>
+                </h2>
 
                 <div className="grid experience">
                     <div className="experience__control">
