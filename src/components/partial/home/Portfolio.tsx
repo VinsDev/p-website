@@ -266,19 +266,6 @@ const projects: Wp = {
   ],
   fun: [
     {
-      name: "JWT Authentication Server",
-      description:
-        "A sample project to show how to do authentication in Nest JS using JWT Tokens",
-      stack: ["Nest JS", "Postgres", "Docker"],
-      cover: hse,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/Innovate-Space/authentication_backend",
-        },
-      ],
-    },
-    {
       name: "Facebook UI Clone",
       description: "A sample clone of Facebooks mobile App home",
       stack: ["Flutter", "Dart"],
@@ -286,45 +273,10 @@ const projects: Wp = {
       environment: [
         {
           icon: "bx bxl-github",
-          link: "https://github.com/sleez007/facebook_ui_clone_flutter",
+          link: "https://github.com/VinsDev/facebook_ui_clone_flutter-master",
         },
       ],
     },
-    {
-      name: "Crypto Promo Page",
-      description:
-        "A sample project design for the landing page of a crypto promotion",
-      stack: ["Angular", "SASS"],
-      cover: mlm,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/sleez007/promo_page",
-        },
-        {
-          icon: "bx bx-link-alt",
-          link: "promo-page.vercel.app",
-        },
-      ],
-    },
-    {
-      name: "Url Shortening",
-      description:
-        "A sample project challenge from frontend mentor that enables users to generate a short version of any URL",
-      stack: ["HTML", "CSS", "Javascript"],
-      cover: mlm,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/Innovate-Space/URL-shortening-API-landing-page",
-        },
-        {
-          icon: "bx bx-link-alt",
-          link: "https://url-shortening-api-landing-page-sandy.vercel.app/",
-        },
-      ],
-    },
-
     {
       name: "Redux Only Chat App",
       description:
@@ -334,29 +286,12 @@ const projects: Wp = {
       environment: [
         {
           icon: "bx bxl-github",
-          link: "https://github.com/sleez007/redux-mastery",
+          link: "https://github.com/VinsDev/redux-mastery-master",
         },
-        {
-          icon: "bx bx-link-alt",
-          link: " https://sleez007.github.io/redux-mastery/",
-        },
-      ],
-    },
-    {
-      name: "Real Estate Landing Page",
-      description:
-        "A sample landing page for a real estate promotion on social media and online generally",
-      stack: ["HTML", "SASS", "GSAP"],
-      cover: mlm,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/sleez007/gve",
-        },
-        {
-          icon: "bx bx-link-alt",
-          link: "http://gve.vercel.app/",
-        },
+        // {
+        //   icon: "bx bx-link-alt",
+        //   link: " https://sleez007.github.io/redux-mastery/",
+        // },
       ],
     },
   ],
