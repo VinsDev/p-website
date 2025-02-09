@@ -4,18 +4,8 @@ import Image, { StaticImageData } from "next/image";
 import { Props } from "../../../theme/styling/GlobalStyle";
 import hse from "../../../../public/assets/images/hse.png";
 import mlm from "../../../../public/assets/images/mlm.png";
-import oil from "../../../../public/assets/images/oil.png";
-import nov from "../../../../public/assets/images/nov.png";
 import rest from "../../../../public/assets/images/rest.png";
-import oilapp from "../../../../public/assets/images/oilapp.png";
-import curr from "../../../../public/assets/images/curr@2x.png";
-import news from "../../../../public/assets/images/news.png";
-import nova from "../../../../public/assets/images/nova@2x.png";
-import breakn from "../../../../public/assets/images/break.png";
 import pf from "../../../../public/assets/images/pf.png";
-import may from "../../../../public/assets/images/mayuk@2x.png";
-import kanban from "../../../../public/assets/images/kanban.png";
-import market from "../../../../public/assets/images/market.png";
 import cican from "../../../../public/assets/images/cican.png";
 import axis from "../../../../public/assets/images/axis.png";
 import movie from "../../../../public/assets/images/movie.png";
@@ -23,6 +13,10 @@ import doorlock from "../../../../public/assets/images/doorlock.png";
 import journal from "../../../../public/assets/images/journal.png";
 import oyichesec from "../../../../public/assets/images/oyichesec.png";
 import task from "../../../../public/assets/images/task.png";
+import result from "../../../../public/assets/images/result.png";
+import dream from "../../../../public/assets/images/dream.png";
+import swaggo from "../../../../public/assets/images/swaggo.png";
+import smith from "../../../../public/assets/images/smith.png";
 import { Container } from "../../Container";
 
 type Project = {
@@ -54,32 +48,6 @@ const projects: Wp = {
         {
           icon: "bx bx-link-alt",
           link: "https://cicantech.com",
-        },
-      ],
-    },
-    {
-      name: "Kanban Board",
-      description:
-        "This is a drag and drop project management board to keep track of tasks and their status",
-      stack: [
-        "Micro Frontend",
-        "Nx mono Repo",
-        "Angular",
-        "DDD",
-        "Jest & Rxjs Marble",
-        "NGRX",
-        "RXJS",
-        "SASS",
-      ],
-      cover: kanban,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/sleez007/kanban-board",
-        },
-        {
-          icon: "bx bx-link-alt",
-          link: "https://kanban-board-inky.vercel.app",
         },
       ],
     },
@@ -146,7 +114,7 @@ const projects: Wp = {
       name: "JOSTUM Engineering Journals",
       description:
         "A platform for engineers to publish their research papers and journals. It allows users to create an account, publish journals, and view other users' journals. It also has an admin panel for managing users and journals",
-      stack: ["React", "Tailwind CSS", "Node.js", "MySQL", "Cloudinary"],
+      stack: ["Next.js", "Tailwind CSS", "Node.js", "MySQL", "Cloudinary"],
       cover: journal,
       environment: [
         {
@@ -160,19 +128,19 @@ const projects: Wp = {
       ],
     },
     {
-      name: "Rest Countries App",
+      name: "Country Finder App",
       description:
-        "This is a challenge from frontend mentor. The web app basically fetches a list of countries via an API call and then displays the information to the user with ability to sort, search and also toggle theme.",
-      stack: ["Angular", "RXJS", "SASS", "Rest Countries API"],
+        "This is a simple app that allows users to search for countries and view details about the country. It also allows users to filter countries by region and view countries by region",
+      stack: ["React", "Tailwind CSS", "SASS", "Rest Countries API"],
       cover: rest,
       environment: [
         {
           icon: "bx bxl-github",
-          link: "https://github.com/sleez007/Rest-countries",
+          link: "https://github.com/VinsDev/Country-app-master",
         },
         {
           icon: "bx bx-link-alt",
-          link: "https://rest-countries-sleez007.vercel.app/",
+          link: "https://country-finder-website.vercel.app/",
         },
       ],
     },
@@ -199,11 +167,7 @@ const projects: Wp = {
       name: "UI Task Challenge",
       description:
         "Built a complex dashboard UI from a figma design. The UI contains lots of custom componets, animations and responsive design",
-      stack: [
-        "React",
-        "Tailwind CSS",
-        "Material UI",
-      ],
+      stack: ["React", "Tailwind CSS", "Material UI"],
       cover: task,
       environment: [
         {
@@ -211,79 +175,79 @@ const projects: Wp = {
           link: "https://github.com/VinsDev/task",
         },
         {
-            icon: "bx bx-link-alt",
-            link: "https://task-vinsdev.vercel.app/",
-          }
+          icon: "bx bx-link-alt",
+          link: "https://task-vinsdev.vercel.app/",
+        },
       ],
     },
     {
-      name: "News App Android",
+      name: "Result Sphere",
       description:
-        "The News App fetches paginated up-to-date news from the remote server and caches it locally on the user device their by supporting fully offline usage. The App also uses dual theme",
+        "An online automated result processing system for schools. It allows schools to upload results, generate report cards, and send results to parents via email. It also has an admin panel for managing schools, students, and results",
       stack: [
-        "Kotlin",
-        "Jetpack Libraries",
-        "Room",
-        "Coroutines & Flow",
-        "Dagger Hilt",
-        "News Api",
-        "MVI",
+        "Next.js",
+        "Typescript",
+        "Tailwind CSS",
+        "Node.js",
+        "Postgres",
+        "Cloudinary",
       ],
-      cover: news,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/Innovate-Space/world_news",
-        },
-      ],
-    },
-    {
-      name: "Whatsapp Clone Android",
-      description:
-        "Whatsapp Clone App is a sample implementtation of whatsapp with a couple of features like profile creation, contact syncronization, messaging, offline use. This uses the socket.IO library for real time communication. ",
-      stack: [
-        "Kotlin",
-        "Jetpack Libraries",
-        "Room",
-        "Coroutines",
-        "Dagger Hilt",
-        "Socket IO",
-        "Express",
-        "Mongo DB",
-        "Docker Compose",
-        "MVVM",
-      ],
-      cover: nova,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/sleez007/sleezChatApp",
-        },
-      ],
-    },
-    {
-      name: "Ground Breaking App",
-      description:
-        "The ground breakinng App is an event app that is primarily built foruse only at the launching event of a popular estate in Awka",
-      stack: ["Flutter", "Bloc", "Build Runner", "Freeze", "RX Dart", "MVVM"],
-      cover: breakn,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/sleez007/gve_ground_breaking",
-        },
-      ],
-    },
-    {
-      name: "Mayuk Construction",
-      description:
-        "An informative website for a client who wants to be avaialable on the online space. No heavy requirements so i's pretty much basic.",
-      stack: ["Javascript", "HTML", "CSS", "Email JS"],
-      cover: may,
+      cover: result,
       environment: [
         {
           icon: "bx bx-link-alt",
-          link: "https://www.mayuk.info/",
+          link: "https://www.resultsphere.com.ng/",
+        },
+      ],
+    },
+    {
+      name: "Dream Ventures LLC",
+      description:
+        "A website for a tech consulting company that offers services in software development, digital marketing, and IT support. The website is a simple informative website with a blog section",
+      stack: ["Wordpress", "Webpack", "Elementor"],
+      cover: dream,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://dreamvllc.com/",
+        },
+      ],
+    },
+    {
+      name: "Swaggo Mayana",
+      description:
+        "A music artiste website that showcases his music, videos, and upcoming events. The website is a simple informative website with a blog section",
+      stack: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Bootstrap CSS",
+        "Youtube Embed",
+        "Spotify Embed",
+        "I Cloud Embed",
+      ],
+      cover: swaggo,
+      environment: [
+        {
+          icon: "bx bxl-github",
+          link: "https://github.com/VinsDev/oyiche-site",
+        },
+        {
+          icon: "bx bx-link-alt",
+          link: "https://www.swaggomayana.com/",
+        },
+      ],
+    },
+    {
+      name: "Smith Sci-fi Mobile Assistant",
+      description:
+        "Built a futuristic sci-fi ui mobile app with features similar to Jarvis from Iron Man movie and Edith from Spiderman movie. The app has voice command, heads up display, and other cool features",
+      stack: ["Flutter", "Dart", "Provider", "Clippers"],
+      cover: smith,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://github.com/VinsDev/smith",
         },
       ],
     },
@@ -294,10 +258,6 @@ const projects: Wp = {
       stack: ["React", "Next JS", "Styled Components"],
       cover: pf,
       environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/sleez007/My-portfolio-website",
-        },
         {
           icon: "bx bx-link-alt",
           link: "https://vincentdominic.vercel.app",
