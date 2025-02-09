@@ -220,11 +220,10 @@ const projects: Wp = {
       stack: [
         "HTML",
         "CSS",
+        "SASS",
         "Javascript",
         "Bootstrap CSS",
-        "Youtube Embed",
-        "Spotify Embed",
-        "I Cloud Embed",
+        "Video Embeddings",
       ],
       cover: swaggo,
       environment: [
@@ -241,7 +240,7 @@ const projects: Wp = {
     {
       name: "Smith Sci-fi Mobile Assistant",
       description:
-        "Built a futuristic sci-fi ui mobile app with features similar to Jarvis from Iron Man movie and Edith from Spiderman movie. The app has voice command, heads up display, and other cool features",
+        "Built a futuristic sci-fi ui mobile app with features similar to Jarvis from Iron Man movie and Edith from Spiderman movie. The app has voice command, heads up display, and other cool features. This is just me pushing the limits of whats possible with Flutter and feeding my love for sci-fi movies",
       stack: ["Flutter", "Dart", "Provider", "Clippers"],
       cover: smith,
       environment: [
