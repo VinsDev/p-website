@@ -16,6 +16,7 @@ import pf from '../../../../public/assets/images/pf.png';
 import may from '../../../../public/assets/images/mayuk@2x.png';
 import kanban from '../../../../public/assets/images/kanban.png';
 import market from '../../../../public/assets/images/market.png';
+import cican from '../../../../public/assets/images/cican.png';
 import { Container } from "../../Container";
 
 
@@ -27,14 +28,14 @@ interface Wp {
 const projects: Wp = {
     featured: [
             {
-            name: 'Build Africa',
-            description: 'A multivendor e-commerce market for buying and selling of building materials',
-            stack: ['Micro Frontend Architecture', 'Nx mono Repo', 'Angular', 'Woo commerce API', 'NGRX', 'RXJS', 'SASS', 'Tailwind'],
-            cover: market,
+            name: 'Cican Technologies',
+            description: 'A tech consulting company that offers services in software development, digital marketing, and IT support. The website is a simple informative website with a blog section',
+            stack: ['React.js', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Framer Motion'],
+            cover: cican,
             environment: [
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://buildafrica.store'
+                    link: 'https://cicantech.com'
                 }
             ]
         },
