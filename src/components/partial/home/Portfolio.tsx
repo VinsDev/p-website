@@ -278,6 +278,18 @@ const projects: Wp = {
       ],
     },
     {
+      name: "React Router Practice",
+      description: "A sample app that help master react router concepts",
+      stack: ["React", "React Router"],
+      cover: mlm,
+      environment: [
+        {
+          icon: "bx bxl-github",
+          link: "https://github.com/VinsDev/react-router-lesson",
+        },
+      ],
+    },
+    {
       name: "Redux Only Chat App",
       description:
         "A sample app that help master keey redux concepts like store, action, dispatch, middle-ware, state, reducers etc",
