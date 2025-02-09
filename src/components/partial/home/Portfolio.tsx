@@ -246,7 +246,7 @@ const projects: Wp = {
       cover: smith,
       environment: [
         {
-          icon: "bx bx-link-alt",
+          icon: "bx bxl-github",
           link: "https://github.com/VinsDev/smith",
         },
       ],
