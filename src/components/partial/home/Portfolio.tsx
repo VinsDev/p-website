@@ -131,23 +131,23 @@ const projects: Wp = {
         },
       ],
     },
-    {
-      name: "Country Finder Website",
-      description:
-        "A simple and intuitive website that allows users to search for countries and view detailed information about them. Users can also filter countries by region and explore countries within a selected region seamlessly.",
-      stack: ["React", "Tailwind CSS", "SASS", "Rest Countries API"],
-      cover: rest,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/VinsDev/Country-app-master",
-        },
-        {
-          icon: "bx bx-link-alt",
-          link: "https://country-finder-website.vercel.app/",
-        },
-      ],
-    },
+    // {
+    //   name: "Country Finder Website",
+    //   description:
+    //     "A simple and intuitive website that allows users to search for countries and view detailed information about them. Users can also filter countries by region and explore countries within a selected region seamlessly.",
+    //   stack: ["React", "Tailwind CSS", "SASS", "Rest Countries API"],
+    //   cover: rest,
+    //   environment: [
+    //     {
+    //       icon: "bx bxl-github",
+    //       link: "https://github.com/VinsDev/Country-app-master",
+    //     },
+    //     {
+    //       icon: "bx bx-link-alt",
+    //       link: "https://country-finder-website.vercel.app/",
+    //     },
+    //   ],
+    // },
     {
       name: "Oyiche Security Website",
       description:
