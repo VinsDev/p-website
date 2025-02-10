@@ -17,6 +17,9 @@ import result from "../../../../public/assets/images/result.png";
 import dream from "../../../../public/assets/images/dream.png";
 import swaggo from "../../../../public/assets/images/swaggo.png";
 import smith from "../../../../public/assets/images/smith.png";
+import rejoice from "../../../../public/assets/images/rejoice.png";
+import perpetual from "../../../../public/assets/images/perpetual.png";
+import stations from "../../../../public/assets/images/stations.png";
 import { Container } from "../../Container";
 
 type Project = {
@@ -247,6 +250,51 @@ const projects: Wp = {
         {
           icon: "bx bxl-github",
           link: "https://github.com/VinsDev/smith",
+        },
+      ],
+    },
+    {
+      name: "Rejoice in the Lord App",
+      description:
+        "Built a hymn app with a very responsive and user friendly design, cool features such as smart filters, search, hymn categorization, indexing and animations as well as a 3D side drawer implementation. The app is used by 10,000+ people all over the world.",
+      stack: [
+        "Flutter",
+        "Dart",
+        "Animation Controllers",
+        "Binary search algorithm",
+        "Search suggestions",
+      ],
+      cover: rejoice,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://drive.google.com/file/d/1f1ykJN7b7gxkP2WC2sq3DuqO0Wk4-OE2/view?usp=drive_link",
+        },
+      ],
+    },
+    {
+      name: "Perpetual Help Novena App",
+      description:
+        "Built a Novena app with a very responsive and user friendly desing, dark mode support, text customization and so many other cool features and animations. Used by thousands of people all over the world.",
+      stack: ["Flutter", "Dart", "Animation Controllers"],
+      cover: perpetual,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://drive.google.com/file/d/1yAT-IHEG53U0Y2oyGZKn0oC_VZXtO4pK/view?usp=drive_link",
+        },
+      ],
+    },
+    {
+      name: "Stations of the Cross App",
+      description:
+        "Built a beautiful and interactive Stations of the Cross App with very responsive and user friendly design. It contains up to 4 different versions of the Stations of the cross reflections with a multi-language support feature. Used by thousands of people all over Nigeria.",
+      stack: ["Flutter", "Dart", "Animation Controllers"],
+      cover: stations,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://drive.google.com/file/d/14n57Sa8ghRMPDRxDXXZ8mavh5REBrpN6/view?usp=drive_link",
         },
       ],
     },
