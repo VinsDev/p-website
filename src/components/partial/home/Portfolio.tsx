@@ -39,7 +39,7 @@ const projects: Wp = {
     {
       name: "Cican Technologies",
       description:
-        "The website for a tech consulting company specializing in software development, digital marketing, and IT support. It is a highly responsive and user-friendly platform, designed to provide clear information and includes a seamless contact form for easy inquiries.",
+        "The website for a tech consulting company specializing in software development, digital marketing, and IT support. It is a highly responsive and user-friendly platform, designed to provide clear information and facilitate seamless communication through an integrated contact form. By enhancing the company’s online presence, the website improves client engagement, streamlines inquiries, and strengthens brand credibility.",
       stack: [
         "React.js",
         "Node.js",
@@ -58,7 +58,7 @@ const projects: Wp = {
     {
       name: "Axis Global Enterprise",
       description:
-        "The official website of Axis Global Enterprise, designed to showcase company information and streamline job applicant management. It features an intuitive administrative backend that enables automated messaging for interview invitations, test links, and other candidate communications.",
+        "Axis Global Enterprise's official website serves as a hub for company information and efficient job applicant management. Equipped with an intuitive administrative backend, it automates messaging for interview invitations, test links, and other candidate communications. This platform enhances recruitment efficiency, improves the applicant experience, and optimizes the company’s hiring process.",
       stack: ["React.js", "Tailwind CSS", "Material UI", "Node.js", "MongoDB"],
       cover: axis,
       environment: [
@@ -151,7 +151,7 @@ const projects: Wp = {
     {
       name: "Oyiche Security Website",
       description:
-        "A professional website for a security company offering security services, advanced security gadgets, and specialized training. It serves as an informative platform featuring a blog section, a job application feature, and a well-trained interactive chatbot for seamless user engagement.",
+        "A professional website for a security company offering security services, advanced security gadgets, and specialized training. It serves as an informative platform featuring a blog section, a job application feature, and a well-trained interactive chatbot for seamless user engagement. The website has significantly increased the company’s online visibility, attracting more clients and job applicants. It has also enhanced user engagement through instant chatbot responses, streamlined the recruitment process with an efficient job application system, and positioned the company as an industry authority with informative blog content.",
       stack: [
         "Wordpress",
         "Webpack",
@@ -187,7 +187,7 @@ const projects: Wp = {
     {
       name: "Result Sphere",
       description:
-        "An online automated result processing system designed for schools. It enables schools to upload results, generate report cards, and seamlessly send student results to parents via email. The platform also includes a robust admin panel for managing schools, students, and result records efficiently.",
+        "An online automated result processing system designed for schools. It enables schools to upload results, generate report cards, and seamlessly send student results to parents via email. The platform also includes a robust admin panel for managing schools, students, and result records efficiently. This system has streamlined result processing, reducing administrative workload and eliminating manual errors. It has improved communication between schools and parents by ensuring timely and accurate result delivery. Additionally, the automated report generation enhances transparency and helps educators track student performance more effectively.",
       stack: [
         "Next.js",
         "Typescript",
@@ -207,7 +207,7 @@ const projects: Wp = {
     {
       name: "Dream Ventures LLC",
       description:
-        "A professional website for a tech consulting company specializing in software development, digital marketing, and IT support. It serves as a simple yet informative platform, featuring a seamless contact form for easy inquiries and communication.",
+        "A professional website for a tech consulting company specializing in software development, digital marketing, and IT support. It serves as a simple yet informative platform, featuring a seamless contact form for easy inquiries and communication. The website has enhanced the company’s online presence, making it easier for potential clients to discover its services. It has also streamlined client engagement by providing a direct and efficient communication channel, leading to increased inquiries and business opportunities. Additionally, the platform reinforces the company’s credibility by showcasing its expertise and service offerings in a structured and professional manner.",
       stack: ["Wordpress", "Webpack", "Elementor"],
       cover: dream,
       environment: [
@@ -220,7 +220,7 @@ const projects: Wp = {
     {
       name: "Swaggo Mayana",
       description:
-        "A music artist's website designed to showcase his music, videos, and upcoming events. The site dynamically displays content from his Spotify, YouTube Music, Apple Music, and Audiomack channels, allowing visitors to stream music directly. It also features embedded YouTube videos for an immersive experience and includes a blog section for updates and insights.",
+        "A music artist's website designed to showcase his music, videos, and upcoming events. The site dynamically displays content from his Spotify, YouTube Music, Apple Music, and Audiomack channels, allowing visitors to stream music directly. It also features embedded YouTube videos for an immersive experience and includes a blog section for updates and insights. The website has significantly increased audience engagement by providing a centralized hub for fans to access content seamlessly. It has enhanced the artist’s digital presence, leading to increased music streams and video views. Additionally, the blog section keeps fans informed and fosters a stronger connection between the artist and his audience.",
       stack: [
         "HTML",
         "CSS",
@@ -244,7 +244,7 @@ const projects: Wp = {
     {
       name: "Smith Sci-fi Mobile Assistant",
       description:
-        "Developed a futuristic sci-fi UI mobile app inspired by Jarvis from Iron Man and Edith from Spider-Man. Built entirely with Flutter widgets from the ground up, the app features voice command capabilities, a heads-up display (HUD), animated text effects, and stunning custom graphics. This project was a passion-driven experiment, pushing the boundaries of Flutter while indulging my love for sci-fi movies. \nIn the future, I plan to integrate AI capabilities and work towards artificial general intelligence (AGI), leveraging advancements in AI to bring even more intelligent and interactive features to the app.",
+        "Developed a futuristic sci-fi UI mobile app inspired by Jarvis from Iron Man and Edith from Spider-Man. Built entirely with Flutter widgets from the ground up, the app features voice command capabilities, a heads-up display (HUD), animated text effects, and stunning custom graphics. This project was a passion-driven experiment, pushing the boundaries of Flutter while indulging my love for sci-fi movies. In the future, I plan to integrate AI capabilities and work towards artificial general intelligence (AGI), leveraging advancements in AI to bring even more intelligent and interactive features to the app.",
       stack: ["Flutter", "Dart", "Provider", "Clippers"],
       cover: smith,
       environment: [
@@ -257,7 +257,7 @@ const projects: Wp = {
     {
       name: "Rejoice in the Lord App",
       description:
-        "Built a hymn app with a very responsive and user friendly design, cool features such as smart filters, search, hymn categorization, indexing and animations as well as a 3D side drawer implementation. The app is used by 10,000+ people all over the world.",
+        "Developed a highly responsive and user-friendly hymn app with innovative features, including smart filters, advanced search, hymn categorization, indexing, and smooth animations. The app also features a unique 3D side drawer for an immersive user experience. It has significantly improved accessibility to hymns, allowing users to quickly find and organize songs with ease. The app’s intuitive design and smooth performance have enhanced user engagement, making it a preferred choice for worshippers. Currently, it is used by over 10,000 people worldwide, fostering a more seamless and enjoyable hymn-singing experience across different communities.",
       stack: [
         "Flutter",
         "Dart",
@@ -276,7 +276,7 @@ const projects: Wp = {
     {
       name: "Perpetual Help Novena App",
       description:
-        "Built a Novena app with a very responsive and user friendly desing, dark mode support, text customization and so many other cool features and animations. Used by thousands of people all over the world.",
+        "Developed a Novena app with a highly responsive and user-friendly design, featuring dark mode support, text customization, and a variety of smooth animations. The app offers an intuitive and engaging experience, making it easy for users to navigate and personalize their prayers. It has enhanced accessibility and convenience for users, allowing them to engage in Novena prayers anytime, anywhere. The customizable features have improved user experience by catering to individual preferences, while the smooth animations provide a visually appealing interface. Currently used by thousands of people worldwide, the app has fostered a more immersive and meaningful prayer experience for its users.",
       stack: ["Flutter", "Dart", "Animation Controllers"],
       cover: perpetual,
       environment: [
@@ -289,7 +289,7 @@ const projects: Wp = {
     {
       name: "Stations of the Cross App",
       description:
-        "Built a beautiful and interactive Stations of the Cross App with very responsive and user friendly design. It contains up to 4 different versions of the Stations of the cross reflections with a multi-language support feature. Used by thousands of people all over Nigeria.",
+        "Developed a captivating and interactive Stations of the Cross app with a highly responsive and user-friendly design. The app features four different versions of Stations of the Cross reflections and includes multi-language support for a diverse user experience. It has significantly improved accessibility to devotional content, allowing users to engage in meaningful reflections in their preferred language. The app’s interactive features and smooth navigation enhance user engagement, making it a valuable tool for spiritual growth. Currently used by thousands of people across Nigeria, it has strengthened devotional practices and provided a seamless way for users to participate in the Stations of the Cross.",
       stack: ["Flutter", "Dart", "Animation Controllers"],
       cover: stations,
       environment: [
@@ -302,7 +302,7 @@ const projects: Wp = {
     {
       name: "FCS Devotional App",
       description:
-        "Built a user friendly functional devotional app for the Fellowship of Christian Students (FCS) Nigeria. The app contains daily devotional messages, bible reading plans, prayer points, and other cool features. Used by thousands of people all over Nigeria.",
+        "Developed a user-friendly and feature-rich devotional app for the Fellowship of Christian Students (FCS) Nigeria. The app offers daily devotional messages, Bible reading plans, prayer points, and other engaging features to support spiritual growth. Currently used by thousands of people across Nigeria.",
       stack: ["Flutter", "Dart", "Node.js", "MongoDB", "Cloudinary"],
       cover: fcs,
       environment: [
@@ -313,9 +313,9 @@ const projects: Wp = {
       ],
     },
     {
-      name: "Portfolio Website :)",
+      name: "Portfolio Website",
       description:
-        "My Portfolio website. This is pretty much the same website you are on at the moment. I guess it's part of what I have built afterall :)",
+        "My portfolio website, which also serves as the platform you are currently viewing. It stands as a testament to my work and expertise.",
       stack: ["React", "Next JS", "Styled Components"],
       cover: pf,
       environment: [
@@ -327,18 +327,6 @@ const projects: Wp = {
     },
   ],
   fun: [
-    {
-      name: "Facebook UI Clone",
-      description: "A sample clone of Facebooks mobile App home",
-      stack: ["Flutter", "Dart"],
-      cover: mlm,
-      environment: [
-        {
-          icon: "bx bxl-github",
-          link: "https://github.com/VinsDev/facebook_ui_clone_flutter-master",
-        },
-      ],
-    },
     {
       name: "React Router Practice",
       description: "A sample app that help master react router concepts",
@@ -352,7 +340,7 @@ const projects: Wp = {
       ],
     },
     {
-      name: "Redux Only Chat App",
+      name: "Chat Web App (Redux Only)",
       description:
         "A sample app that help master keey redux concepts like store, action, dispatch, middle-ware, state, reducers etc",
       stack: ["React", "Redux"],
@@ -368,6 +356,18 @@ const projects: Wp = {
         // },
       ],
     },
+    {
+      name: "Facebook App UI Clone",
+      description: "A sample clone of Facebooks mobile App home",
+      stack: ["Flutter", "Dart"],
+      cover: mlm,
+      environment: [
+        {
+          icon: "bx bxl-github",
+          link: "https://github.com/VinsDev/facebook_ui_clone_flutter-master",
+        },
+      ],
+    }
   ],
 };
 

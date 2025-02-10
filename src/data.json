@@ -1,60 +1,68 @@
 {
-    "experience": [
-        {
-            "company": "FeatureMind",
-            "title": "Full-Stack Developer",
-            "at": "@FeatureMind",
-            "link": "",
-            "duration": "December 2023 – Present",
-            "roles": [
-                "Engineered a high-performance e-commerce platform frontend with Next.js and TypeScript, integrating Algolia for lightning-fast search",
-                "Developed an advanced product catalog system, leveraging Algolia for real-time search across 100,000+ items",
-                "Enhanced team development workflows through comprehensive code reviews across a team of 10+ developers",
-                "Optimized CI/CD pipelines with automated testing, slashing deployment times from 2 hours to 15 minutes",
-                "Built and launched mobile applications using Flutter, achieving over 50,000 combined downloads"
-            ]
-        },
-        {
-            "company": "Oyiche Tech Solutions",
-            "title": "Full-Stack & Mobile Developer",
-            "at": "@Oyiche Tech",
-            "link": "",
-            "duration": "July 2023 – Present",
-            "roles": [
-                "Developed high-performance, responsive websites using HTML, CSS, JavaScript, and Bootstrap",
-                "Engineered a school management system with Django and Bootstrap, reducing administrative workload by 60%",
-                "Built a school result computation system, reducing report generation time from 2 days to under 30 minutes",
-                "Developed feature-rich mobile applications with Flutter including food ordering and AI-powered customer service apps",
-                "Led code reviews for a team of four developers, optimizing code quality and improving performance by 30%"
-            ]
-        },
-        {
-            "company": "Groovinx",
-            "title": "Intern Full-Stack Developer",
-            "at": "@Groovinx",
-            "link": "",
-            "duration": "January 2023 – July 2023",
-            "roles": [
-                "Developed key features for a video editing web application similar to CapCut",
-                "Implemented real-time video processing capabilities using FFmpeg and WebGL, reducing rendering time by 40%",
-                "Built responsive video timeline interface with frame-accurate editing using Canvas API and React",
-                "Integrated cloud storage solutions using AWS S3 for efficient video file management",
-                "Optimized video processing pipeline reducing export times by 50%"
-            ]
-        },
-        {
-            "company": "Modern Age Tech Solutions",
-            "title": "Full-Stack & Mobile Developer",
-            "at": "@Modern Age Tech",
-            "link": "",
-            "duration": "April 2021 – February 2023",
-            "roles": [
-                "Developed and launched 5+ specialized mobile applications for result computation and scientific calculations",
-                "Engineered scientific calculator app reducing computation time by 75%",
-                "Implemented complex mathematical algorithms reducing calculation errors by 99%",
-                "Optimized app performance through efficient state management, reducing memory usage by 40%",
-                "Built custom result computation system processing 10,000+ student records with 99.9% accuracy"
-            ]
-        }
-    ]
+  "experience": [
+    {
+      "company": "FeatureMind",
+      "title": "Full-Stack Developer",
+      "at": "@FeatureMind",
+      "link": "https://featuremind.com",
+      "duration": "December 2023 – Present",
+      "roles": [
+        "Engineered a high-performance e-commerce platform frontend with Next.js and TypeScript, integrating Algolia for lightning-fast search, Magento for robust inventory management, and Contentful as a flexible CMS serving 20,000+ daily users with a 60% reduction in page load times.",
+        "Developed an advanced product catalog system, leveraging Algolia for real-time search across 100,000+ items with sub-100ms response times and sophisticated filtering options.",
+        "Enhanced team development workflows through comprehensive code reviews across a team of 10+ developers, improving code quality metrics by 30%.",
+        "Optimized CI/CD pipelines with automated testing and streamlined deployment workflows, slashing deployment times from 2 hours to just 15 minutes.",
+        "Resolved critical bugs in frontend and API integrations, leading to a 40% reduction in customer-reported issues.",
+        "Built and launched mobile applications using Flutter, achieving over 50,000 combined downloads and maintaining an average rating of 4.7+.",
+        "Collaborated within Agile frameworks using Confluence and Atlassian suites, boosting team efficiency and sprint velocity."
+      ]
+    },
+    {
+      "company": "Oyiche Tech Solutions",
+      "title": "Full-Stack & Mobile Developer",
+      "at": "@Oyiche Tech",
+      "link": "https://oyichetech.com",
+      "duration": "July 2023 – Present",
+      "roles": [
+        "Developed high-performance, responsive websites using HTML, CSS, JavaScript, and Bootstrap, including Swagg Omayana and Dream Ventures.",
+        "Engineered a school management system with Django and Bootstrap, integrating student enrollment, attendance tracking, fee management, grading, and report generation, reducing administrative workload by 60% and cutting operational costs for schools by 40%.",
+        "Built a school result computation system using Django and Bootstrap, automating result processing and reducing report generation time from 2 days to under 30 minutes.",
+        "Developed feature-rich mobile applications with Flutter, including: A food ordering app with complex functionalities such as real-time order tracking, in-app payments, geolocation-based restaurant discovery, push notifications, and multi-vendor support—leveraging Firebase for authentication, Firestore for real-time database operations, and cloud functions for seamless order processing.",
+        "An AI-powered app integrated with OpenAI's ChatGPT API, enabling businesses to automate 70% of customer inquiries, increasing customer retention by 35%.",
+        "Designed and deployed scalable WordPress-based websites, helping businesses establish an online presence and increasing lead conversion rates by 25%.",
+        "Trained and integrated AI chatbot models into organizational websites, reducing manual customer support workload by 60% and improving response times.",
+        "Led code reviews for a team of four developers, optimizing code quality and improving overall performance by 30%.",
+        "Collaborated using Trello and Slack, ensuring 95% on-time project completion and improving team efficiency."
+      ]
+    },
+    {
+      "company": "Groovinx",
+      "title": "Intern Full-Stack Developer",
+      "at": "@Groovinx",
+      "link": "https://www.linkedin.com/company/groovinxfashion/posts",
+      "duration": "January 2023 – July 2023",
+      "roles": [
+        "Developed key features for a video editing web application similar to CapCut, implementing advanced video processing, timeline editing, and real-time previews in preparation for launch.",
+        "Implemented real-time video processing capabilities using FFmpeg and WebGL, reducing rendering time by 40%",
+        "Built responsive video timeline interface with frame-accurate editing using Canvas API and React",
+        "Integrated cloud storage solutions using AWS S3 for efficient video file management",
+        "Optimized video processing pipeline reducing export times by 50% compared to initial implementation",
+        "Collaborated with UI/UX team to implement intuitive drag-and-drop interfaces for video editing",
+        "Contributed to building real-time preview system with 99.9% synchronization accuracy"
+      ]
+    },
+    {
+      "company": "Modern Age Tech Solutions",
+      "title": "Full-Stack & Mobile Developer",
+      "at": "@Modern Age Tech",
+      "link": "",
+      "duration": "April 2021 – February 2023",
+      "roles": [
+        "Developed and launched 5+ specialized mobile applications for result computation and scientific calculations, achieving combined 50,000+ downloads with 4.6+ average rating",
+        "Engineered scientific calculator app reducing computation time by 75%, achieving 90% user satisfaction",
+        "Implemented complex mathematical algorithms reducing calculation errors by 99% and saving engineers 10+ hours weekly",
+        "Optimized app performance through efficient state management, reducing memory usage by 40%",
+        "Built custom result computation system processing 10,000+ student records with 99.9% accuracy"
+      ]
+    }
+  ]
 }
