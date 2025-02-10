@@ -38,7 +38,7 @@ const Hire = () => {
         <Container>
           <h2 className="section__title">
             <span className="line"></span>
-            <span className="deco">05. </span> What's Next?
+            <span className="deco">05. </span> What&apos;s Next?
             <span className="line"></span>
           </h2>
           <h1 className="text-center">{"Get In Touch"}</h1>
