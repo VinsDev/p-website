@@ -367,7 +367,7 @@ const projects: Wp = {
           link: "https://github.com/VinsDev/facebook_ui_clone_flutter-master",
         },
       ],
-    }
+    },
   ],
 };
 
@@ -432,18 +432,22 @@ const Wrapper = styled.section.attrs({ id: "portfolio" })<{
     }
 
     img {
-      filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-      filter: gray; /* IE6-9 */
-      -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
       transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
       border-radius: 10px;
-      @media (max-width: 60em) {
-        border-radius: 0px;
+
+      @media (min-width: 60em) {
+        filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+        filter: gray;
+        -webkit-filter: grayscale(100%);
+
+        &:hover {
+          filter: none;
+          -webkit-filter: grayscale(0%);
+        }
       }
 
-      &:hover {
-        filter: none;
-        -webkit-filter: grayscale(0%);
+      @media (max-width: 60em) {
+        border-radius: 0px;
       }
     }
 
