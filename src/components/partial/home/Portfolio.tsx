@@ -20,6 +20,7 @@ import smith from "../../../../public/assets/images/smith.png";
 import rejoice from "../../../../public/assets/images/rejoice.png";
 import perpetual from "../../../../public/assets/images/perpetual.png";
 import stations from "../../../../public/assets/images/stations.png";
+import fcs from "../../../../public/assets/images/fcs.png";
 import { Container } from "../../Container";
 
 type Project = {
@@ -38,7 +39,7 @@ const projects: Wp = {
     {
       name: "Cican Technologies",
       description:
-        "A tech consulting company that offers services in software development, digital marketing, and IT support. The website is a simple informative website with a blog section",
+        "The website for a tech consulting company specializing in software development, digital marketing, and IT support. It is a highly responsive and user-friendly platform, designed to provide clear information and includes a seamless contact form for easy inquiries.",
       stack: [
         "React.js",
         "Node.js",
@@ -57,7 +58,7 @@ const projects: Wp = {
     {
       name: "Axis Global Enterprise",
       description:
-        "Official website for Axis Global Enterprise. This website contains company information and job applicants management features along with an administrative backend to send candidates automated messages for interview invites, test links etc",
+        "The official website of Axis Global Enterprise, designed to showcase company information and streamline job applicant management. It features an intuitive administrative backend that enables automated messaging for interview invitations, test links, and other candidate communications.",
       stack: ["React.js", "Tailwind CSS", "Material UI", "Node.js", "MongoDB"],
       cover: axis,
       environment: [
@@ -74,7 +75,7 @@ const projects: Wp = {
     {
       name: "Movie Listing Website",
       description:
-        "Website that displays list of movies from a publc API and allows users to search for movies, filter by types, genre and other tages, and view movie details.",
+        "A dynamic movie listing website built for a technical assessment task during a job interview. It leverages Redux for state management and incorporates clean code practices, optimizations, caching, and memoization for enhanced performance. Features include lazy loading, skeletal loading for better user experience, and efficient filtering by type, genre, and other tags, ensuring seamless movie search and detailed information display.",
       stack: [
         "React",
         "Vite",
@@ -99,7 +100,7 @@ const projects: Wp = {
     {
       name: "JOSTUM Door Lock Admin",
       description:
-        "This is an administrative end for a door lock system that allows the admin to manage users, doors, and access levels. It also allows the admin to view logs of door activities. It is connected to an IOT project (Arduino) that controls the door lock",
+        "An administrative panel for a door lock system, enabling the management of users, doors, and access levels. It also provides real-time logs of door activities for monitoring and security. Integrated with an IoT project powered by Arduino, it facilitates seamless control of the door lock system.",
       stack: ["React", "AntD", "Node.js", "Nodemailer", "Firebase", "Postgres"],
       cover: doorlock,
       environment: [
@@ -116,7 +117,7 @@ const projects: Wp = {
     {
       name: "JOSTUM Engineering Journals",
       description:
-        "A platform for engineers to publish their research papers and journals. It allows users to create an account, publish journals, and view other users' journals. It also has an admin panel for managing users and journals",
+        "A dedicated platform for engineers to publish their research papers and journals. It enables users to create accounts, publish their work, and explore journals from other users. The platform also includes an admin panel for efficiently managing users and journal publications.",
       stack: ["Next.js", "Tailwind CSS", "Node.js", "MySQL", "Cloudinary"],
       cover: journal,
       environment: [
@@ -131,9 +132,9 @@ const projects: Wp = {
       ],
     },
     {
-      name: "Country Finder App",
+      name: "Country Finder Website",
       description:
-        "This is a simple app that allows users to search for countries and view details about the country. It also allows users to filter countries by region and view countries by region",
+        "A simple and intuitive website that allows users to search for countries and view detailed information about them. Users can also filter countries by region and explore countries within a selected region seamlessly.",
       stack: ["React", "Tailwind CSS", "SASS", "Rest Countries API"],
       cover: rest,
       environment: [
@@ -150,7 +151,7 @@ const projects: Wp = {
     {
       name: "Oyiche Security Website",
       description:
-        "A website for a security company that offers security services, security gadgets, and security training. The website is a simple informative website with a blog section, job application feature and a well trained interactive chatbot",
+        "A professional website for a security company offering security services, advanced security gadgets, and specialized training. It serves as an informative platform featuring a blog section, a job application feature, and a well-trained interactive chatbot for seamless user engagement.",
       stack: [
         "Wordpress",
         "Webpack",
@@ -169,7 +170,7 @@ const projects: Wp = {
     {
       name: "UI Task Challenge",
       description:
-        "Built a complex dashboard UI from a figma design. The UI contains lots of custom componets, animations and responsive design",
+        "Developed a complex dashboard UI from a Figma design as part of a UI task challenge to test precision in design reproduction. The interface features numerous custom components, smooth animations, and a responsive layout tailored for desktop and tablet screens, as per contest specifications. Achieved a 91% accuracy score in the challenge. Mobile responsiveness was not required for this task.",
       stack: ["React", "Tailwind CSS", "Material UI"],
       cover: task,
       environment: [
@@ -186,7 +187,7 @@ const projects: Wp = {
     {
       name: "Result Sphere",
       description:
-        "An online automated result processing system for schools. It allows schools to upload results, generate report cards, and send results to parents via email. It also has an admin panel for managing schools, students, and results",
+        "An online automated result processing system designed for schools. It enables schools to upload results, generate report cards, and seamlessly send student results to parents via email. The platform also includes a robust admin panel for managing schools, students, and result records efficiently.",
       stack: [
         "Next.js",
         "Typescript",
@@ -206,7 +207,7 @@ const projects: Wp = {
     {
       name: "Dream Ventures LLC",
       description:
-        "A website for a tech consulting company that offers services in software development, digital marketing, and IT support. The website is a simple informative website with a blog section",
+        "A professional website for a tech consulting company specializing in software development, digital marketing, and IT support. It serves as a simple yet informative platform, featuring a seamless contact form for easy inquiries and communication.",
       stack: ["Wordpress", "Webpack", "Elementor"],
       cover: dream,
       environment: [
@@ -219,7 +220,7 @@ const projects: Wp = {
     {
       name: "Swaggo Mayana",
       description:
-        "A music artiste website that showcases his music, videos, and upcoming events. The website is a simple informative website with a blog section",
+        "A music artist's website designed to showcase his music, videos, and upcoming events. The site dynamically displays content from his Spotify, YouTube Music, Apple Music, and Audiomack channels, allowing visitors to stream music directly. It also features embedded YouTube videos for an immersive experience and includes a blog section for updates and insights.",
       stack: [
         "HTML",
         "CSS",
@@ -243,7 +244,7 @@ const projects: Wp = {
     {
       name: "Smith Sci-fi Mobile Assistant",
       description:
-        "Built a futuristic sci-fi ui mobile app with features similar to Jarvis from Iron Man movie and Edith from Spiderman movie. The app has voice command, heads up display, and other cool features. This is just me pushing the limits of whats possible with Flutter and feeding my love for sci-fi movies",
+        "Developed a futuristic sci-fi UI mobile app inspired by Jarvis from Iron Man and Edith from Spider-Man. Built entirely with Flutter widgets from the ground up, the app features voice command capabilities, a heads-up display (HUD), animated text effects, and stunning custom graphics. This project was a passion-driven experiment, pushing the boundaries of Flutter while indulging my love for sci-fi movies. \nIn the future, I plan to integrate AI capabilities and work towards artificial general intelligence (AGI), leveraging advancements in AI to bring even more intelligent and interactive features to the app.",
       stack: ["Flutter", "Dart", "Provider", "Clippers"],
       cover: smith,
       environment: [
@@ -295,6 +296,19 @@ const projects: Wp = {
         {
           icon: "bx bx-link-alt",
           link: "https://drive.google.com/file/d/14n57Sa8ghRMPDRxDXXZ8mavh5REBrpN6/view?usp=drive_link",
+        },
+      ],
+    },
+    {
+      name: "FCS Devotional App",
+      description:
+        "Built a user friendly functional devotional app for the Fellowship of Christian Students (FCS) Nigeria. The app contains daily devotional messages, bible reading plans, prayer points, and other cool features. Used by thousands of people all over Nigeria.",
+      stack: ["Flutter", "Dart", "Node.js", "MongoDB", "Cloudinary"],
+      cover: fcs,
+      environment: [
+        {
+          icon: "bx bxl-play-store",
+          link: "https://play.google.com/store/search?q=fcs+nigeria&c=apps&hl=en",
         },
       ],
     },
