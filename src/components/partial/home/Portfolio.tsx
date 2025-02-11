@@ -42,6 +42,7 @@ const projects: Wp = {
         "The website for a tech consulting company specializing in software development, digital marketing, and IT support. It is a highly responsive and user-friendly platform, designed to provide clear information and facilitate seamless communication through an integrated contact form. By enhancing the company’s online presence, the website improves client engagement, streamlines inquiries, and strengthens brand credibility.",
       stack: [
         "React.js",
+        "Next.js",
         "Node.js",
         "Postgres",
         "Tailwind CSS",
@@ -308,7 +309,7 @@ const projects: Wp = {
       environment: [
         {
           icon: "bx bxl-play-store",
-          link: "https://play.google.com/store/search?q=fcs+nigeria&c=apps&hl=en",
+          link: "https://play.google.com/store/apps/details?id=com.fcsnigeria.devotional",
         },
       ],
     },
